@@ -1,0 +1,273 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+div,p,input,button,form,span,a,ul,li{
+	box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    color: #fff;
+    background: rgba(0,191,255,1);
+    background: -moz-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,191,255,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,191,255,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(0,191,255,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfff', endColorstr='#3790d9', GradientType=1 );
+    padding-top: 62px;
+    padding-bottom: 134px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.offer{
+    width: 557px;
+}
+.title{
+    font-size: 37px;
+    line-height: 1.55em;
+    margin-top: 145px;
+    margin-bottom: 45px;
+    width: 557px;
+}
+.dream{
+    font-size: 59px;
+}
+.goal{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+    background: #ffd429;
+    color: black;
+    padding: 22px 0;
+    text-decoration: none;
+    text-align: center;
+    width: 222px;
+    display: block;
+    margin-top: 45px;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background: #d0a90f;
+
+}
+.travel{
+    margin-left: 80px;
+    margin-top: 55px;
+}
+.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 120px;
+}
+.wait{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 177px;
+    margin-bottom: 74px;
+}
+.feature{
+    margin-right: 160px;
+    text-align: center;
+}
+.free_time{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+.family{
+    font-size: 15px;
+    font-weight: 400;
+    width: 285px;
+}
+.feature_travel{
+    width: 265px;
+}
+.travel_work{
+    width: 265px;
+}
+.value{
+    width: 300px;
+}
+.feature_value{
+    width: 300px;;
+}
+.ticket{
+    background: #ecf3f8;
+    padding-top: 105px;
+    padding-bottom: 102px;
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.future{
+    margin: 0;
+}
+.input{
+    margin-top: 57px;
+    height: 46px;
+    width: 343px;
+    border:1px solid #bbb;
+    border-radius: 3px;
+    padding-left: 25px;
+}
+.input_2{
+    margin-top: 15px;
+}
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+.btn_form{
+    margin-top: 15px;
+    margin-left: 415px;
+    margin-right: 415px;
+    width: 343px;
+    border:none;
+    cursor: pointer;
+}
+.footer{
+    padding: 63px;
+    text-align: center;
+    color: #fff;
+    background: #164d7a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 960px;
+        text-align: center;
+    }
+    .header{
+        padding-top: 15px;
+        padding-bottom: 0;
+    }
+    .wrapper{
+        display: inline;
+    }
+    .offer{
+        width: 100%;
+    }
+    .dream{
+        margin-left: 0;
+    }
+    .goal{
+        width: 100%;
+    }
+    .title{
+        width: 100%;
+        margin: 0;
+    }
+    .travel{
+        display: block;
+        width: 525px;
+        margin: 0 auto;
+    }
+    br{
+        display: none;
+    }
+    .btn_head{
+        width: 100%;
+        margin: 0;
+    }
+    .ahead{
+        padding-bottom: 60px;
+    }
+    .wait{
+        margin-top: 90px;
+        margin-left: 54px;
+    }
+    .features{
+        margin: 0;
+    }
+    .feature{
+        margin: 5px 5px;
+    }
+    .family{
+        margin: 0;
+    }
+    .btn_form{
+        width: 686px;
+        margin: 0 auto;
+        margin-top: ;
+    }
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+    .ahead{
+        padding-bottom: 20px;
+    }
+    .title{
+        line-height: 1.2em;
+    }
+    .feature{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .features{
+        display: inline;
+    }
+    .family{
+        margin: 0 auto;
+    }
+    .free_time{
+        margin: 7px;
+    }
+    .btn_form{
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width: 768px)
+{
+    .container{
+        width: 540px;
+    }
+    .wait{
+        margin-left: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 54px;
+    }
+    .ticket{
+        padding: 50px;
+    }
+    .input_first{
+        margin-top: 28px;
+    }
+    .btn_form{
+        width: 343px;
+    }
+}
+@media screen and (max-width: 576px)
+{
+    .container
+    {
+        width: 90%;
+    }
+    
+    .wait{
+        margin-left: 0;
+    }
+    .travel, .input, .btn_form{
+        width: 100%;
+    }
+}
